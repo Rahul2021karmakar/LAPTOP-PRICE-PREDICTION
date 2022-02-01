@@ -10,10 +10,10 @@ def uploadCsv(csv):
   laptop=pd.read_csv(csv,encoding='Latin-1')       #Importing CSV file
   return laptop
 
-csv='https://github.com/Rahul2021karmakar/LAPTOP-PRICE-PREDICTION/blob/67c020015857467fef12ad440882ecec6691085b/laptop_encoded.csv'
+csv='laptop_encoded.csv'
 laptop=uploadCsv(csv)
 
-csv1='https://github.com/Rahul2021karmakar/LAPTOP-PRICE-PREDICTION/blob/b7a3adec1e5413f37c69b2ea9e76585ade7d4289/laptops%20_original.csv'
+csv1='original.csv'
 laptop_withoutEncoded=uploadCsv(csv1)    #Importing same CSV file without encoded format
 
 
