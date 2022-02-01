@@ -1,4 +1,5 @@
 import streamlit as st
+from sklearn.linear_model import LinearRegression
 st.title('Laptop Price Prediction')
 st.write("""## Explore different Regression Which one is better?""")
 
@@ -49,7 +50,7 @@ elif details=='Output dataset':
   st.dataframe(y1,width=2000,height=500)
 
 #Importing Regressor models
-from sklearn.linear_model import LinearRegression
+
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
 
