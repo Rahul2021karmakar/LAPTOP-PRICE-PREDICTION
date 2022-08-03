@@ -16,9 +16,13 @@ in developing this project.
 
 # # PROJECT DESCRIPTION
 Given different laptops features, the goal of the project is to implement a Machine Learning model that can predict laptop’s price.
-The raw data (collected from kaggle) was first imported using Python’s pandas library and visualized using Python’s matplotlib and seaborn library
+
+The raw data (collected from kaggle) was first imported using Python’s pandas library and visualized using Python’s matplotlib and seaborn library.
+
 Data cleaning steps were peformed such as handiling outliers, checking for balanced dataset, encoding categorical data, scaling, numerical data, etc.
+
 Using Python’s scikit-learn library different machine learning models were implemented such as Multiple Linear Regression, RandomForest resressor and XGBoost Regressor.
+
 The accuracy scores of these model were compared and conclusions were drawn.
 
 # PROJECT GOAL
