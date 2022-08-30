@@ -7,12 +7,12 @@ addition to user needs, laptop specifications are usually also determined by the
 purchasing power of the user. Of course, users will be able to choose laptop
 specifications that are suitable for their needs and purchasing power.
 
-We will make a project for Laptop price prediction. The problem statement is that if
-any user wants to buy a laptop then our application should be compatible to
-provide a tentative price of laptop according to the user configurations. Although it
-looks like a simple project or just developing a model, the dataset we have is noisy
-and needs lots of feature engineering, and preprocessing that will drive your interest
-in developing this project.
+We are making a project for Laptop price prediction. The problem statement is that
+if any user wants to buy a laptop then our application should be compatible to 
+provide a tentative price for the laptop according to the user configurations.
+Although it looks like a simple project or just developing a model, the dataset
+we have is noisy and needs lots of feature engineering, and preprocessing that 
+will drive your interest in developing this project.
 
 # # PROJECT DESCRIPTION
 Given different laptops features, the goal of the project is to implement a Machine Learning model that can predict laptop’s price.
